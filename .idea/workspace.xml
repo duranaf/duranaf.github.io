@@ -104,13 +104,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="498" />
+          <entry key="css" value="534" />
           <entry key="html" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="498" />
+          <entry key="CSS" value="534" />
           <entry key="Svelte" value="47" />
         </counts>
       </usages-collector>
@@ -131,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="-301">
               <caret line="111" column="44" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="44" />
             </state>
           </provider>
@@ -149,8 +149,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/css/queries.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="230" column="21" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+            <state relative-caret-position="260">
+              <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -158,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6341">
-              <caret line="394" column="1" selection-start-line="394" selection-start-column="1" selection-end-line="394" selection-end-column="1" />
+            <state relative-caret-position="362">
+              <caret line="524" lean-forward="true" selection-start-line="524" selection-end-line="526" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -168,8 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h1</find>
-      <find>p {</find>
       <find>hero</find>
       <find>java</find>
       <find>js--section</find>
@@ -195,9 +193,11 @@
       <find>icon</find>
       <find>round</find>
       <find>city</find>
-      <find>.box</find>
-      <find>box</find>
       <find>city-feature</find>
+      <find>city-</find>
+      <find>.box</find>
+      <find>job</find>
+      <find>box</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -309,12 +309,12 @@
       <workItem from="1602924947960" duration="28196000" />
       <workItem from="1603030874912" duration="4559000" />
       <workItem from="1603091836911" duration="38775000" />
-      <workItem from="1603206565280" duration="5885000" />
+      <workItem from="1603206565280" duration="6538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104324000" />
+    <option name="totallyTimeSpent" value="104977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
@@ -370,22 +370,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6341">
-          <caret line="394" column="1" selection-start-line="394" selection-start-column="1" selection-end-line="394" selection-end-column="1" />
+        <state relative-caret-position="362">
+          <caret line="524" lean-forward="true" selection-start-line="524" selection-end-line="526" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="-301">
           <caret line="111" column="44" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/queries.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="230" column="21" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+        <state relative-caret-position="260">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -120,6 +120,8 @@
 
     .box div {
         background-color: #efefef;
+        border-radius: 5px;
+        padding-top: 5px;
     }
 
     .main-nav {
@@ -239,6 +241,14 @@
 
     footer {
         font-size: 110%;
+    }
+
+    footer .long-copy {
+        width: 100%;
+    }
+
+    .job-box:hover, .job-box:active {
+        transform: none;
     }
 
 
