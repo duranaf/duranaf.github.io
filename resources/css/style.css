@@ -198,6 +198,7 @@ header {
 .box {
     padding: 1%;
     border: 1px solid #efefef;
+    border-radius: 5px;
 }
 
 .box-trans {
@@ -231,6 +232,11 @@ a:hover, a:active {
 
 .icon-medium {
     font-size: 40px;
+}
+
+.icon-menu {
+    font-size: 35px;
+    color: white;
 }
 
 .full-star {

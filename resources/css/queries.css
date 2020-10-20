@@ -13,6 +13,10 @@
 
 /* ---------- SMALL PHONES, SMALL TABLETS ------- */
 @media only screen and (max-width: 1023px) {
+    h1 {
+        font-size: 200%;
+    }
+
     body {
         font-size: 18px
     }
@@ -43,7 +47,16 @@
     }
 
     .app-screen {
-        width: 50%
+        width: 100%
+    }
+
+    .btn-app img{
+        width: 20%;
+        height: auto;
+    }
+
+    .btn-app:link, .btn-app:visited {
+        filter: none;
     }
 
     .icon-big {
@@ -89,8 +102,25 @@
         margin: 0 0 4% 0;
     }
 
+    .box {
+        text-align: center;
+        border-radius: 5px;
+        width: 90%;
+        border: 2px solid #efefef;
+
+    }
+
+    .row .box {
+        margin-left: 5%;
+    }
+
     .box img {
-        width: 10%;
+        width: 80%;
+    }
+
+    .box div {
+        padding-left: 33%;
+        background-color: #efefef;
     }
 
     .main-nav {
@@ -138,6 +168,11 @@
         font-size: 150%
     }
 
+    .section-cities h3 {
+        border-top: 1px solid #efefef;
+        padding-top: 10px;
+    }
+
     .long-copy {
         width: auto;
         margin-left: 0;
@@ -163,8 +198,52 @@
     }
 
     .app-screen {
-        width: 30%;
+        width: 50%;
     }
+
+    .btn-app img{
+        width: 10%;
+        height: auto;
+    }
+
+    .quotes {
+        font-size: 110%;
+        line-height: 120%;
+    }
+
+    .quotes li {
+        margin-top: 20px;
+
+    }
+
+    .logo {
+        width: 50px;
+        height: auto;
+    }
+
+    .city-feature {
+        text-align: left;
+        font-size: 110%;
+        padding-bottom: 10px;
+    }
+
+    .city-feature img{
+        width: 8%;
+        height: auto;
+        padding-bottom: -5px;
+        padding-top: 5px;
+    }
+
+    .plan-box {
+        text-align: center;
+        width: 100%;
+        font-size: 90%;
+    }
+
+    footer {
+        font-size: 110%;
+    }
+
 
 }
 
