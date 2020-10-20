@@ -251,6 +251,9 @@
         transform: none;
     }
 
+    .plan-price {
+        font-size: 150%;
+    }
 
 }
 
