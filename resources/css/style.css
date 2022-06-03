@@ -412,11 +412,18 @@ h2:after {
     background-attachment: fixed;
 }
 
-.section-features, .section-cities {
-    background: white;
+.section-cities {
+    background: #dddddd;
     z-index: 1;
 }
 
+.section-cities .box {
+  background: white;
+}
+
+.section-cities .box:last-of-type {
+  border: 1px solid #3a332d;
+}
 
 blockquote {
     padding: 2%;
@@ -450,13 +457,13 @@ cite img {
 /*---------- PLANS ---------*/
 
 .section-plans {
-    background-color: #f4f4f4;
+    background-color: #e6e6e6;
 }
 
 .plan-box, .job-box {
     background-color: white;
     border-radius: 5px;
-    width: 90%;
+    width: 97%;
     margin-left: 5%;
     /*box-shadow: 0 2px 2px #efefef;*/
 }
@@ -529,8 +536,10 @@ cite img {
 .plan-price {
     font-size: 200%;
     margin-bottom: 10px;
+    padding-top: 10px;
     font-weight: 100;
     text-align: center;
+    border-top: 1px solid black;
 }
 
 .plan-price span {
