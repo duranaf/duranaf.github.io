@@ -339,7 +339,7 @@ h2:after {
 
 .steps-box:last-child {
     padding-left: 3%;
-    margin-top: 70px;
+    margin-top: 27px;
     text-align: center;
 }
 
@@ -495,10 +495,6 @@ cite img {
 
 .job-box ul li {
     text-align: left;
-}
-
-.plan-box ul li:hover {
-    background-color: #cccccc;
 }
 
 .plan-box ul li:hover ion-icon{
