@@ -144,6 +144,10 @@ header {
     padding: 16px 0;
 }
 
+.sticky .main-nav li select {
+  color: black;
+}
+
 .sticky .logo {
     display: none;
 }
@@ -345,6 +349,19 @@ h2:after {
 
 .app-screen {
     width: 100%;
+}
+
+.optgroup {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+}
+
+.optgroup option{
+  color: black;
 }
 
 .next-to-each-other{

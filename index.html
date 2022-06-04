@@ -43,7 +43,7 @@
                     <li> <a href="#education" data-i18n="header.education"></a> </li>
                     <li> <a href="#jobs" data-i18n="header.jobs"></a> </li>
                     <li> <a href="#skills" data-i18n="header.skills"></a> </li>
-                    <li><select name="language" id="languageSwitcher"></select> </li>
+                    <li><select name="language" id="languageSwitcher" class="optgroup"></select> </li>
                 </ul>
                 <a class="mobile-nav-icon js--nav-icon">
                 <ion-icon name="menu-outline" class="icon-menu"></ion-icon>
@@ -82,15 +82,9 @@
                     <img class="app-screen js--wp-2" src="resources/img/me.png" alt="Omnifood app on IPhone">
                 </div>
                 <div class="col span-1-of-2 steps-box">
-                 <p class="lead">Po úspešnom dokončení štúdia na Fakulte informatiky a informačných technológií (FIIT STU) a zisku titulu Ing. z informačných systémov som pokračoval v prehlbovaní svojich znalostí vo sfére IT. Prvé pracovné skúsenosti som nazbieral už počas štúdia, neskôr som sa rozhodol zamerať na vývoj webových aplikácií.
-        Najviac ma v profesnej sfére baví a zaujíma vývoj a implementácia aplikácií, najmä ich grafického rozhrania, kde sa môžem naplno angažovať. Pri práci rád spoznávam nové a progresívne technológie, ktoré zvyšujú moje možnosti.</p>
-
-                           <p class="lead">
-                               Popri informatike sa samozrejme venujem aj iným aspektom života. Milujem prechádzky v prírode, cestovanie a s tým
-                               spojené objavovanie nových miest. Vo voľnom čase sa zaujímam o históriu, zahrám si na gitare či prevetrám bycikel.
-                               Okrem toho nepohrdnem dobrou knihou, ideálne motivačnou alebo ezoterickou.
-                           </p>
-                           <br>
+                 <p class="lead" data-i18n="about.aboutProffesions"></p>
+                 <p class="lead" data-i18n="about.aboutMe"></p>
+                 <br>
                   <div class="next-to-each-other">
                   <h3 data-i18n="about.downloadCV"></h3>
                   <ion-icon name="cloud-download" class="full-star"></ion-icon>
@@ -219,7 +213,7 @@
                           </div>
                           <div>
                               <ul>
-                              <li> <img class="icon-big" src="vendors/css/checkmark-sharp.svg" alt="Icon">12/2020 - Doteraz </li>
+                              <li> <img class="icon-big" src="vendors/css/checkmark-sharp.svg" alt="Icon"><span data-i18n="jobs.timeFrame"></span></li>
                               <li> <img class="icon-big" src="vendors/css/checkmark-sharp.svg" alt="Icon">ReactJS, JS, HTML, CSS, TS</li>
                               <li> <img class="icon-big" src="vendors/css/checkmark-sharp.svg" alt="Icon">Node.js, Jest, Bootstrap, JSON</li>
                               <li> <img class="icon-big" src="vendors/css/checkmark-sharp.svg" alt="Icon">Redis, MySQL, Express, REST</li>
@@ -239,8 +233,8 @@
 
     <section class="section-features " id="skills">
         <div class="row">
-            <h2>Znalosti a schopnosti</h2>
-            <p class="long-copy"><i>&quot;Ak chcete vybudovať veľký podnik, vybudujte najprv seba.&quot;</i></p>
+            <h2 data-i18n="skills.title"></h2>
+            <p class="long-copy">&quot; <i data-i18n="skills.quote"></i> &quot;</p>
              <p class="long-copy"><i> - Tomáš Baťa </i></p>
         </div>
 
@@ -422,16 +416,13 @@
         </div>
 
         <div class="row">
-              <h3>JAZYKOVÉ ZNALOSTI</h3>
+              <h3 data-i18n="skills.languges"></h3>
          </div>
             <div class="row ">
                <div class="col span-1-of-3 box-trans">
                  <div class="plan-box">
-                   <ul>
-                      <li> <span>
-                        Slovenčina (C2)
-                        <ion-icon title="Materinský jazyk, nie je moc čo riešiť" name="information-circle-outline"></ion-icon>
-                      </span>
+                   <ul title="Materinský jazyk, nie je moc čo riešiť">
+                      <li> <span data-i18n="skills.slovak"> </span>
                           <ion-icon name="star" class="full-star"></ion-icon>
                           <ion-icon name="star" class="full-star"></ion-icon>
                           <ion-icon name="star" class="full-star"></ion-icon>
@@ -444,11 +435,9 @@
               </div>
               <div class="col span-1-of-3 box-trans">
                 <div class="plan-box">
-                  <ul>
-                     <li> <span>
-                       Angličtina (B2)
-                       <ion-icon title="Používaná denne v pracovnej sfére" name="information-circle-outline"></ion-icon>
-                     </span>
+                  <ul title="Používaná denne v pracovnej sfére">
+                     <li>
+                       <span data-i18n="skills.english"> </span>
                          <ion-icon name="star" class="full-star"></ion-icon>
                          <ion-icon name="star" class="full-star"></ion-icon>
                          <ion-icon name="star" class="full-star"></ion-icon>
@@ -461,11 +450,8 @@
              </div>
              <div class="col span-1-of-3 box-trans">
                <div class="plan-box">
-                 <ul>
-                    <li> <span>
-                      Nemčina (B1/2)
-                      <ion-icon title="Certifikát od Österreich Institut 2022" name="information-circle-outline"></ion-icon>
-                    </span>
+                 <ul title="Certifikát od Österreich Institut 2022">
+                    <li> <span data-i18n="skills.german"> </span>
                         <ion-icon name="star" class="full-star"></ion-icon>
                         <ion-icon name="star" class="full-star"></ion-icon>
                         <ion-icon name="star" class="full-star"></ion-icon>
@@ -478,7 +464,7 @@
             </div>
         </div>
         <div class="row">
-              <h3>OKREM TOHO SOM PRIČUCHOL AJ K </h3>
+              <h3 data-i18n="skills.otherKnowledge"></h3>
          </div>
         <div class="row ">
             <div class="col span-1-of-4 box-trans">
@@ -517,10 +503,10 @@
                   <li> <span>Openshift</span>
                       <ion-icon name="star" class="full-star"></ion-icon>
                   </li>
-                  <li> <span>CSS preprocesory</span>
+                  <li> <span data-i18n="skills.cssPreprocessors"></span>
                       <ion-icon name="star" class="full-star"></ion-icon>
                   </li>
-                  <li> <span>UI/UX dizajn</span>
+                  <li> <span data-i18n="skills.uiDesign"></span>
                       <ion-icon name="star" class="full-star"></ion-icon>
                   </li>
                   </ul>
@@ -546,7 +532,7 @@
 
    <section class="section-testimonials">
        <div class="row">
-           <h2>Obľúbené citáty</h2>
+           <h2 data-i18n="quotes.title"></h2>
        </div>
        <div class="row">
             <ul class="quotes">
@@ -564,10 +550,10 @@
 
     <footer>
      <div class="row">
-                     <h2>Kontakt</h2>
+                     <h2 data-i18n="contact.title"></h2>
                  </div>
         <div class="row">
-            <p class="long-copy"><i>&quot;Zručnosť je výborná a genialita je ohromná, ale správne kontakty sú cennejšie ako jedno aj druhé.&quot;</i></p>
+            <p class="long-copy">&quot;<i data-i18n="contact.quote"></i>&quot;</p>
             <p class="long-copy"><i>- Arthur Conan Doyle</i></p>
         </div>
         <div class="row">
@@ -581,7 +567,10 @@
 
         </div>
         <div class="row">
-            <p> Copyright &copy; 2022 - František Ďurana. Všetky práva vyhradené.</p>
+          <div class="next-to-each-other">
+            <p> Copyright &copy; 2022 - František Ďurana. </p>
+            <p data-i18n="contact.allRights"></p>
+          </div>
         </div>
     </footer>
 
