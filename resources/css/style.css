@@ -468,6 +468,10 @@ cite img {
     /*box-shadow: 0 2px 2px #efefef;*/
 }
 
+.span-2-of-2 .plan-box {
+   margin-left: 2.5%;
+}
+
 .plan-box div, .job-box div {
     padding: 15px;
     border-bottom: 1px solid #e8e8e8;
@@ -525,12 +529,16 @@ cite img {
     padding: 25px;
 }
 
-.job-box {
+.job-box, .education-box {
     transition: transform 0.2s;
 }
 
 .job-box:hover, .job-box:active {
     transform: scale(1.10);
+}
+
+.education-box:hover, .education-box:active {
+    transform: scale(1.05);
 }
 
 .plan-price {
