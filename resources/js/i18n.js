@@ -29,15 +29,16 @@ $(function () {
               education: 'Education',
               jobs: 'Jobs',
               skills: 'Skills',
+              contact: 'Contact'
             },
             homepage: {
-              more: 'More about me'
+              more: 'Contact me'
             },
             about: {
               title: 'About me',
               downloadCV: 'Here you can download my CV',
               clickDownload: 'Download CV',
-              aboutProffesions: 'After I graduated from the Faculty of informatics and information technologies at Slovak technical university with a Master\'s degree, I continued improving my skills in the IT-sphere. I collected first real work experiences also during my study and when it was over, I took a path of web development. My favorite part of the application development is building a FrontEnd, UI, and blocks that are responsible for interaction with the end-user of the application also glad to use and incorporate new progressive technologies, that are improving my knowledge.',
+              aboutProffesions: 'After I graduated from the Faculty of informatics and information technologies at Slovak technical university with a Master\'s degree, I continued improving my skills in the IT-sphere. I collected first real work experiences also during my study and when it was over, I took a path of web development. My favorite part of the application development is building a FrontEnd, UI, and blocks that are responsible for interaction with the end-user of the application also glad to use and incorporate new progressive technologies, that are improving my knowledge. Now I work as Full stack web developer, playing also with the back-end side of the web apps.',
               aboutMe: 'Besides informatics, I am also developing myself in other life\'s aspects. I like to go walking in nature, travel and explore new places. In my free time I also cycle, play guitar or see some interesting movie. I don\'t despise a good book, ideally from a motivation or esoteric genre.'
             },
             education: {
@@ -80,6 +81,7 @@ $(function () {
               title: 'Contact',
               quote: 'Skill is fine, and genius is splendid, but the right contacts are more valuable than either.',
               allRights: 'All rights reserved.',
+              message: 'Do you have some questions or offers for me? I look forward to your message on: '
             },
             commom: {
               more: 'More',
@@ -93,15 +95,16 @@ $(function () {
               education: 'Vzdelanie',
               jobs: 'Práca',
               skills: 'Znalosti',
+              contact: 'Kontakt'
             },
             homepage: {
-              more: 'Zistiť viac'
+              more: 'Kontaktujte ma'
             },
             about: {
               title: 'Niečo o mne',
               downloadCV: 'Životopis na stiahnutie',
               clickDownload: 'Zobraziť životopis',
-              aboutProffesions: 'Po úspešnom dokončení štúdia na Fakulte informatiky a informačných technológií (FIIT STU) a zisku titulu Ing. z informačných systémov som pokračoval v prehlbovaní svojich znalostí vo sfére IT. Prvé pracovné skúsenosti som nazbieral už počas štúdia, neskôr som sa rozhodol zamerať na vývoj webových aplikácií. Najviac ma v profesnej sfére baví a zaujíma vývoj a implementácia aplikácií, najmä ich grafického rozhrania, kde sa môžem naplno angažovať. Pri práci rád spoznávam nové a progresívne technológie, ktoré zvyšujú moje možnosti.',
+              aboutProffesions: 'Po úspešnom dokončení štúdia na Fakulte informatiky a informačných technológií (FIIT STU) a zisku titulu Ing. z informačných systémov som pokračoval v prehlbovaní svojich znalostí vo sfére IT. Prvé skúsenosti som nazbieral už počas školy, neskôr som sa zameral na vývoj webových aplikácií. Najviac ma v profesnej sfére baví a zaujíma vývoj a implementácia aplikácií, najmä ich grafického rozhrania (UI), kde sa môžem naplno angažovať. V súčasnosti pracujem ako Full stack web developer a venujem sa čiastočne aj backendu. Pri práci rád spoznávam nové a progresívne technológie, ktoré zvyšujú moje možnosti.',
               aboutMe: 'Popri informatike sa samozrejme venujem aj iným aspektom života. Milujem prechádzky v prírode, cestovanie a s tým spojené objavovanie nových miest. Vo voľnom čase sa zaujímam o históriu, zahrám si na gitare či prevetrám bicykel. Okrem toho nepohrdnem dobrou knihou, ideálne motivačnou alebo ezoterickou.',
             },
             education: {
@@ -144,6 +147,7 @@ $(function () {
               title: 'Kontakt',
               quote: 'Zručnosť je výborná a genialita je ohromná, ale správne kontakty sú cennejšie ako jedno aj druhé.',
               allRights: 'Všetky práva vyhradené.',
+              message: 'Máte otázky či zaujímavú ponuku? Neváhajte a kontaktujte ma! Budem sa tešiť na Vaše správy tu:'
             },
             commom: {
               more: 'Viac',
